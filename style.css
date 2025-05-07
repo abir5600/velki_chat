@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+}
+
+.background-img {
+    width: 100%;
+    display: block;
+}
+
+.button-container {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}
